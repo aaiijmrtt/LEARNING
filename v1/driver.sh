@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# usage: bash driver.sh [datafile: string] [fractiontest: float] [chunksize: int] [modelfile: string] [eta: float] [alpha: float] [topology: list(int)]
-
 mkdir testdata traindata
 echo '[CHECK] DIVIDING DATA'
 python dividedata.py ${*:1}

@@ -1,7 +1,4 @@
 #!/usr/bin/python
-
-# usage: python learn.py [datafile: string] [fractiontest: float] [parallel: int] [modelfile: string] [crossover: float] [mutation: float] [generations: int] [extinction:float] [eta: float] [alpha: float] [topology: list(int)]
-
 import sys, os, json, threading, shutil, random
 from NN import Connection, Neuron, Net
 from GA import NeuralGene, Generation
